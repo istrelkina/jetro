@@ -70,9 +70,7 @@ li{
 .menu__btn{
 	display: none;
 }
-.menu__btn{
-	display: none;
-}
+
 /* -------------------------Section Slider---------------------------- */
 .slider{
 	background-image: url(../images/slider-bg.png);
@@ -304,7 +302,9 @@ li{
 	padding-right: 5px;
 }
 
-
+.footer2{
+	color: black;
+}
 
 
 
