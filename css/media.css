@@ -1,0 +1,169 @@
+
+@media(max-width: 940px){
+	.works__inner {
+    	flex-wrap: wrap;
+    	justify-content: space-around;
+	}
+	.works__inner-item{
+		margin-right: 10px;
+		margin-bottom: 10px;
+	}
+	.footer__inner-item {
+		padding: 0 10px;
+	}
+	.works {
+    	margin-bottom: 10px;
+	}
+}
+
+@media(max-width: 920px){
+	.portfolio__check, .portfolio__offer, .portfolio__follow{
+		padding: 0 5px;
+	}
+}
+
+@media(max-width: 880px){
+	.portfolio__inner {
+		flex-wrap: wrap;
+	}
+	.portfolio__item{
+		max-width: 50%;
+		padding: 0 5px 20px;
+	}
+}
+
+
+@media(max-width: 800px){
+	.portfolio__title{
+		padding-bottom: 0;
+		height: 60px;
+	}
+	.footer-about{
+		max-width: 230px;
+	}
+	.footer__inner-title{
+		margin-bottom: 10px;
+	}
+}
+
+@media(max-width: 740px){
+	.footer__ears{
+		height: 100%;
+	}
+	.footer__inner-item{
+		width: 50%;
+		max-width: 50%;
+	}
+	.footer__inner{
+		flex-wrap: wrap;
+		height: 100%;
+		padding: 25px 20px 0px 20px;
+	}
+	
+	.footer__inner .footer-about{
+		max-width: 100%;
+		width: 100%;
+	}
+	
+}
+
+@media(max-width: 640px){
+
+	
+	.menu__btn{
+		width: 30px;
+		display: block;
+		margin-right: 15px;
+	}
+	.menu__btn-row{
+		height: 8px;
+		border-top: 3px solid #000;
+	}
+	.header__menu{
+		/* width: 100%; */
+	}
+	.header__menu-main{
+		display: none;
+		position: absolute;
+		margin: 0 auto;
+		top: 70px;
+		left: 0;
+		right: 0;
+		width: 100%;
+		background-color: #fff;
+		text-align: center;
+		z-index: 2;
+	}
+
+	.header__menu-main li{
+		display: block;
+		text-align: center;
+		border-bottom: 1px solid #999;
+		height: 35px;
+    	padding-top: 8px;
+	}
+	.header__menu li+li {
+    	margin-left: 0;
+	}
+}
+
+@media(max-width: 610px){
+	.portfolio__text{
+		max-height: 150px;
+	}
+}
+
+@media(max-width: 550px){
+	.slider__item-text {
+	    width: 100%;
+	    height: 120px;
+	    padding: 10px;
+	    left: 0;
+	    bottom: 0;
+	}
+	.text__title {
+		margin-bottom: 10px;
+	}
+	.portfolio__item{
+		max-width: 100%;
+	}
+	.portfolio__more{
+		margin-bottom: 15px;
+	}
+	.portfolio__inner{
+		margin-bottom: 0;
+	}
+	.footer__inner-item{
+		width: 100%;
+		max-width: 100%;
+		margin-bottom: 20px;
+	}
+	.footer__inner-title {
+	    margin-bottom: 10px;
+	}
+	.slider__inner-nav{
+		display: none;
+	}
+}
+
+@media(max-width: 420px){
+	.slider__item-text {
+	    height: 120px;
+	    left: 0;
+	    right: 0;
+	    width: 100%;
+	}
+
+}
+
+
+
+
+
+
+
+@media(min-width: 640px){
+	.header__menu-main{
+		display: block !important;
+	}
+}
